@@ -25,9 +25,9 @@ export default function MeditateScreen2({ navigation }){
     );
     setSound(sound);
     await sound.playAsync(); }
+  
   async function stopSound(){
     console.log('Stopping Sound');
-    await sound.stopAsync();
     setSound('');
   }
 
@@ -85,7 +85,7 @@ export default function MeditateScreen2({ navigation }){
       <Image  style={styles.image}  source={require('../assets/pause.png')}></Image>
       <Text style={styles.subheading}>Pause</Text>
     </TouchableOpacity>
-    <TouchableOpacity style={styles.playbtns}>
+    <TouchableOpacity style={styles.playbtns} onPress={()=>stopSound()}>
       <Image style={styles.image} source={require('../assets/stop.png')}></Image>
       <Text>Stop</Text>
     </TouchableOpacity>
