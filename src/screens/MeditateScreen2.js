@@ -101,11 +101,13 @@ export default function MeditateScreen2({ navigation }){
 
 const styles = StyleSheet.create({
   root:{
+    width: "100%",
+    height: "100%",
     display:"flex",
     flexDirection:"column",
     justifyContent:"center",
     alignItems:"center",
-    marginTop: 65
+    backgroundColor: "rgb(241,235,228)"
   },
   heading:{
     fontSize:20,
