@@ -74,14 +74,15 @@ export default function Dashboard({ navigation }) {
               }}
             />
           </View>
-
-          <View
+        <View style={{ 
+          flexDirection: 'row',
+          justifyContent: 'space-around',
+        }}>
+        <View
             style={{
               width: 157,
               height: 117,
-              left: 21,
-              top: 127,
-              position: 'absolute',
+              left:10,
             }}
           >
             <Text
@@ -103,7 +104,16 @@ export default function Dashboard({ navigation }) {
               Good to have you back here!
             </Text>
           </View>
+          <Image 
+          style={{
+            height: 250,
+            width:250,
+            top:-80,
+          }}
+          source={require('../assets/homelogo.png')}/>
         </View>
+        </View>
+          
 
         <View
           style={{
