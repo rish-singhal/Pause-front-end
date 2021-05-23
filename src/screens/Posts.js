@@ -18,7 +18,7 @@ export default function Posts({ navigation }) {
 
           <TouchableOpacity style={styles.card}
           onPress={() => {
-              Linking.openURL('https://aboutreact.com');
+              Linking.openURL('https://www.health.harvard.edu/topics/mental-health');
             }}
           >
             <Image
@@ -34,7 +34,7 @@ export default function Posts({ navigation }) {
 
         <TouchableOpacity style={styles.card}
          onPress={() => {
-              Linking.openURL('https://aboutreact.com');
+              Linking.openURL('https://health.usnews.com/conditions/mental-health');
             }}>
         <Image
             style={styles.images}
@@ -48,7 +48,7 @@ export default function Posts({ navigation }) {
 
         <TouchableOpacity style={styles.card}
          onPress={() => {
-              Linking.openURL('https://aboutreact.com');
+              Linking.openURL('https://www.nybooks.com/articles/2011/06/23/epidemic-mental-illness-why/');
             }}>
         <Image
             style={styles.images}
@@ -63,7 +63,7 @@ export default function Posts({ navigation }) {
 
         <TouchableOpacity style={styles.card}
          onPress={() => {
-              Linking.openURL('https://aboutreact.com');
+              Linking.openURL('https://www.buzzfeed.com/macmcclelland/not-feeling-sad-about-feeling-sad');
             }}>
         <Image
             style={styles.images}
